@@ -3,7 +3,8 @@ $color-focused: (
     minimal: $color-focused-minimal,
     dark: $color-focused-dark,
     bootstrap: $color-bootstrap-focused,
-    bootstrap3-info: $color-bootstrap3-info-focused
+    bootstrap3-info: $color-bootstrap3-info-focused,
+    alertmotion: $color-focused-alertmotion
 );
 
 $color-primary: (
@@ -11,7 +12,8 @@ $color-primary: (
     minimal: $color-primary-minimal,
     dark: $color-primary-dark,
     bootstrap: $color-bootstrap-default,
-    bootstrap3-info: $color-bootstrap3-info-default
+    bootstrap3-info: $color-bootstrap3-info-default,
+    alertmotion: $color-primary-alertmotion
 );
 
 $color-error: (
@@ -19,7 +21,8 @@ $color-error: (
     minimal: $color-error-minimal,
     dark: $color-error-dark,
     bootstrap: $color-error-bootstrap,
-    bootstrap3-info: $color-error-bootstrap3-info
+    bootstrap3-info: $color-error-bootstrap3-info,
+    alertmotion: $color-error-alertmotion
 );
 
 $color-arrow: (
@@ -27,7 +30,8 @@ $color-arrow: (
     minimal: $color-arrow-minimal,
     dark: $color-arrow-dark,
     bootstrap: $color-arrow-bootstrap,
-    bootstrap3-info: $color-arrow-default-focused
+    bootstrap3-info: $color-arrow-default-focused,
+    alertmotion: $color-arrow-alertmotion
 );
 
 $color-arrow-focused: (
@@ -36,4 +40,5 @@ $color-arrow-focused: (
     dark: $color-arrow-dark-focused,
     bootstrap: $color-arrow-bootstrap,
     bootstrap3-info: $color-arrow-default-focused
+    alertmotion: $color-arrow-alertmotion-focused
 );

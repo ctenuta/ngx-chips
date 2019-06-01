@@ -6,6 +6,7 @@
 @import "_dark-theme.scss";
 @import "_bootstrap-theme.scss";
 @import "_bootstrap3-info-theme.scss";
+@import "_alertmotion-theme.scss";
 
 .ng2-tag-input {
     @include tag-input-theme($default-theme);
@@ -17,6 +18,9 @@
 
 .dark.ng2-tag-input {
     @include tag-input-theme($dark-theme);
+}
+.alertmotion.ng2-tag-input {
+    @include tag-input-theme($alertmotion-theme);
 }
 
 .bootstrap.ng2-tag-input {
@@ -34,3 +38,5 @@
 .bootstrap .error-message {
     @include error-message($bootstrap-theme);
 }
+
+

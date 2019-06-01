@@ -10,6 +10,10 @@ tag {
     @include tag-theme($dark-tag-theme);
 }
 
+.alertmotion tag {
+    @include tag-theme($alertmoion-tag-theme);
+}
+
 .bootstrap tag {
     @include tag-theme($bootstrap-tag-theme);
 }
